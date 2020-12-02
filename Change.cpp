@@ -9,7 +9,7 @@ int main() {
     cout << "Enter true cost. \n" << "Give the Dollars: "; // User will enter dollar amount 
     cin >> costDollars;
     cout << "Now give the cents: " ;
-    cin >> costCents; // user enters cent amount
+    cin >> costCents; // user enters cent amount 
     cout << "In cash the item costs: $";
     totalPrice = costDollars + (costCents * .01); // by multiplying it with .01, the number will turn into decimal
     cout << totalPrice ;
